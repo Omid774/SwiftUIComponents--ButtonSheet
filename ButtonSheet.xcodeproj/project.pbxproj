@@ -51,9 +51,8 @@
 		F7C3D1012BDA485E00035782 /* ButtonSheet */ = {
 			isa = PBXGroup;
 			children = (
-				F7C3D1022BDA485E00035782 /* ButtonSheetApp.swift */,
-				F7C3D1042BDA485E00035782 /* ContentView.swift */,
-				F7C3D1062BDA485F00035782 /* Assets.xcassets */,
+				F7C3D1142BDA49AD00035782 /* Other */,
+				F7C3D1132BDA49A500035782 /* Views */,
 				F7C3D1082BDA485F00035782 /* Preview Content */,
 			);
 			path = ButtonSheet;
@@ -65,6 +64,23 @@
 				F7C3D1092BDA485F00035782 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7C3D1132BDA49A500035782 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7C3D1042BDA485E00035782 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7C3D1142BDA49AD00035782 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F7C3D1062BDA485F00035782 /* Assets.xcassets */,
+				F7C3D1022BDA485E00035782 /* ButtonSheetApp.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
