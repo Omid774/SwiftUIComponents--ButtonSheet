@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F7C3D1032BDA485E00035782 /* ButtonSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C3D1022BDA485E00035782 /* ButtonSheetApp.swift */; };
-		F7C3D1052BDA485E00035782 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C3D1042BDA485E00035782 /* ContentView.swift */; };
+		F7C3D1052BDA485E00035782 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C3D1042BDA485E00035782 /* MainView.swift */; };
 		F7C3D1072BDA485F00035782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C3D1062BDA485F00035782 /* Assets.xcassets */; };
 		F7C3D10A2BDA485F00035782 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C3D1092BDA485F00035782 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		F7C3D0FF2BDA485E00035782 /* ButtonSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C3D1022BDA485E00035782 /* ButtonSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSheetApp.swift; sourceTree = "<group>"; };
-		F7C3D1042BDA485E00035782 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7C3D1042BDA485E00035782 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F7C3D1062BDA485F00035782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7C3D1092BDA485F00035782 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +69,7 @@
 		F7C3D1132BDA49A500035782 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F7C3D1042BDA485E00035782 /* ContentView.swift */,
+				F7C3D1042BDA485E00035782 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7C3D1052BDA485E00035782 /* ContentView.swift in Sources */,
+				F7C3D1052BDA485E00035782 /* MainView.swift in Sources */,
 				F7C3D1032BDA485E00035782 /* ButtonSheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
